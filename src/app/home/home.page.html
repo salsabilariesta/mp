@@ -1,0 +1,211 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Input Data</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+  <div class="container">
+  <h1>1. Direct WhatsApp</h1>
+  <ion-item>
+    <ion-input
+      [(ngModel)]="nomor_wa"
+      label="NO WhatsApp"
+      labelPlacement="stacked"
+      placeholder="62"
+      fill="solid"
+
+    ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="NIK"
+      labelPlacement="stacked"
+      placeholder="NIK"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Nama"
+      labelPlacement="stacked"
+      placeholder="Nama"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Tanggal Lahir"
+      labelPlacement="stacked"
+      placeholder="Tanggal Lahir"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Jenis Kelamin"
+      labelPlacement="stacked"
+      placeholder="Jenis Kelamin"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Alamat"
+      labelPlacement="stacked"
+      placeholder="Alamat"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="RT/RW"
+      labelPlacement="stacked"
+      placeholder="RT/RW"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Desa"
+      labelPlacement="stacked"
+      placeholder="Desa"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Kecamatan"
+      labelPlacement="stacked"
+      placeholder="Kecamatan"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Agama"
+      labelPlacement="stacked"
+      placeholder="Agama"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Status"
+      labelPlacement="stacked"
+      placeholder="Status"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Pekerjaan"
+      labelPlacement="stacked"
+      placeholder="Pekerjaan"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Kewarganegaraan"
+      labelPlacement="stacked"
+      placeholder="Kewarganegaraan"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="pesan_wa"
+      label="Berlaku Hingga"
+      labelPlacement="stacked"
+      placeholder="Berlaku Hingga"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <br>
+  <ion-button (click)="kirimKeWhatsApp()">Kirim WhatsApp</ion-button>
+
+  <div class="container">
+    <h1>2. Direct Telegram</h1>
+    <ion-item>
+      <ion-input
+        [(ngModel)]="nomor_tele"
+        label="NO Telegram"
+        labelPlacement="stacked"
+        placeholder="62"
+        fill="solid"
+
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input
+        [(ngModel)]="nomor_tele"
+        label="NIK"
+        labelPlacement="stacked"
+        placeholder="NIK"
+        fill="solid"
+      ></ion-input>
+    </ion-item>
+
+    <ion-button (click)="kirimKeTelegram()">Kirim Telegram</ion-button>
+
+    <h1>3. Direct Email</h1>
+  <ion-item>
+    <ion-input
+      [(ngModel)]="email"
+      label="Email"
+      labelPlacement="stacked"
+      placeholder="Email"
+      fill="solid"
+
+    ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input
+      [(ngModel)]="email"
+      label="NIK"
+      labelPlacement="stacked"
+      placeholder="NIK"
+      fill="solid"
+    ></ion-input>
+  </ion-item>
+
+  <ion-button (click)="kirimKeEmail()">Kirim Email</ion-button>
+</div>
+
+
+
